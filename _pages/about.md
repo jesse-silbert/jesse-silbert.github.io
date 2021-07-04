@@ -16,7 +16,7 @@ In addition to economics, I am passionate about weird music and good food.
 
 **Research:**
 
-[Market Design for a Monopsonistic Labor Market](https://jesse-silbert.github.io/files/paper1.pdf) (with [Wilbur Townsend](https://wilburtownsend.github.io))
+[Market Design for a Monopsonistic Labor Market](https://jesse-silbert.github.io/files/market_design_monopsony.pdf) (with [Wilbur Townsend](https://wilburtownsend.github.io))
 
 Abstract:
 
