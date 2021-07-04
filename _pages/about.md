@@ -16,7 +16,7 @@ In addition to economics, I am passionate about weird music and good food.
 
 **Research:**
 
-[Market Design for a Monopsonistic Labor Market](https://jesse-silbert.github.io/files/job_matching_without_wage_discrimination.pdf) with [Wilbur Townsend](https://wilburtownsend.github.io)
+[Market Design for a Monopsonistic Labor Market](https://github.com/jesse-silbert/jesse-silbert.github.io/blob/9ac16c6abd39673bd0e5ba983e4cf7ff476af3ea/files/job_matching_without_wage_discrimination.pdf) with [Wilbur Townsend](https://wilburtownsend.github.io)
 
 *Abstract:*
 
