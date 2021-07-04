@@ -82,8 +82,8 @@ analytics:
 author:
   name             : #"Your Sidebar Name"
   avatar           : "profile.png"
-  bio              : #"Your biography for the left-hand sidebar"
-  location         : #Location"
+  bio              : "Economics PhD Student at Princeton University"
+  location         : "Princeton, New Jersey"
   employer         :
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : #"http://yourfullgooglescholarurl.com"
@@ -105,7 +105,7 @@ author:
   linkedin         :
   orcid            : #"http://orcid.org/yourorcidurl"
   pinterest        :
-  soundcloud       :
+  soundcloud       : "https://soundcloud.com/jesse-silbert"
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
