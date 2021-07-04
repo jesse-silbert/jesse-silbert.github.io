@@ -14,7 +14,7 @@ In addition to economics, I am passionate about weird music and good food.
 
 ---
 
-Resarch:
+Research:
 
 [Market Design for a Monopsonistic Labor Market](files/job_matching_without_wage_discrimination.pdf) with [Wilbur Townsend](https://wilburtownsend.github.io)
 
