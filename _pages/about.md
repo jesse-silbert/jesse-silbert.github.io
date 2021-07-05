@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-Hi! I am a PhD student at the Princeton University Department of Economics interested in labor markets, industrial organization, market design, higher education, and information economics.
+Hi! I am a Ph.D. student at the Princeton University Department of Economics interested in labor markets, industrial organization, market design, higher education, and information economics.
 
 In addition to economics, I am passionate about weird music and good food.
 
