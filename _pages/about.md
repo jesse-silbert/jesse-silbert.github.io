@@ -28,10 +28,16 @@ Abstract:
 
 My favorite [DJ set](https://www.youtube.com/watch?v=IUjWumGIqe8).
 
-My favorite contemporary classical [piece](https://www.youtube.com/watch?v=NDVMtnaB28E).
+My favorite [contemporary classical piece](https://www.youtube.com/watch?v=NDVMtnaB28E).
 
 Many years ago, I made this [EP](https://jessesilbert.bandcamp.com).
 
-A really great [poem](https://www.poetryfoundation.org/poetrymagazine/poems/145468/pyramid-scheme).
+One of my favorite [poems](https://www.poetryfoundation.org/poetrymagazine/poems/145468/pyramid-scheme).
 
 I recently watched this great [documentary on Netflix](https://www.themostunknown.com).
+
+My favorite [NYC art gallery](https://bitforms.art).
+
+My favorite [food podcast](https://gastropod.com).
+
+One of my favorite [visual artists](http://www.artbylanyao.com).
