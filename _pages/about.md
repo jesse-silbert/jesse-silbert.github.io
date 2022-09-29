@@ -12,6 +12,8 @@ Hi! I am a Ph.D. student at the Princeton University Department of Economics int
 
 In addition to economics, I am passionate about weird music and good food.
 
+Email: jesseas@princeton.edu
+
 ---
 
 **Research:**
@@ -42,3 +44,5 @@ My favorite [NYC art gallery](https://bitforms.art).
 My favorite [food podcast](https://gastropod.com).
 
 One of my favorite [visual artists](http://www.artbylanyao.com).
+
+One of my favorite [sound artists](https://vimeo.com/7235817).
