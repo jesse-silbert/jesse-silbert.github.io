@@ -18,7 +18,7 @@ Email: jesseas@princeton.edu
 
 **Research:**
 
-[Centralizing a Monopsonistic Labor Market](https://wilburtownsend.github.io/papers/market%20design%20monopsony.pdf) (with [Wilbur Townsend](https://wilburtownsend.github.io)), 2022.
+[Stable Matching in Monopsonistic Labor Markets](https://wilburtownsend.github.io/papers/market%20design%20monopsony.pdf) (with [Wilbur Townsend](https://wilburtownsend.github.io)), 2022.
 
 Abstract:
 
