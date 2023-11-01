@@ -26,6 +26,7 @@ Agents in two-sided matching markets use a mix of platform-guided recommendation
 
 [Extended Abstract](https://agaldin.github.io/webfiles/GALDINAnais_ExtendedAbstract_Freelancer.pdf)
 
+---
 
 [Stable Matching in Monopsonistic Labor Markets](https://wilburtownsend.github.io/papers/market%20design%20monopsony.pdf) (with [Wilbur Townsend](https://wilburtownsend.github.io)). [New draft coming soon with new title "Stable Matching without Price Discrimination"]
 
