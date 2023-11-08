@@ -37,11 +37,6 @@ Can centralized matching improve monopsonistic labor markets? We construct a job
 
 ---
 
-**Early Stage Research**
-
-Bespokeness, LLMs, and Communication Costs in Service Trade (with Jingyi Cui and [Anaïs Galdin](https://www.anaisgaldin.com/home)).
-
----
 
 **Fun Stuff**
 
