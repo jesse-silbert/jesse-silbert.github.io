@@ -18,7 +18,7 @@ Email: jesseas@princeton.edu
 
 **Research:**
 
-Incentivizing Communication through Recommendation: Signaling, Screening, and Congestion in an Online Labor Market (with [Anaïs Galdin](https://www.anaisgaldin.com/home)). [Work in progress]
+Learning in Thick Markets: Recommendation and Communication on an Online Job Platform (with [Anaïs Galdin](https://www.anaisgaldin.com/home)). [Work in progress]
 
 Abstract:
 
