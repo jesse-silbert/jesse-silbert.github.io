@@ -28,12 +28,12 @@ Agents in two-sided matching markets use a mix of platform-guided recommendation
 
 ---
 
-[Stable Matching in Monopsonistic Labor Markets](https://wilburtownsend.github.io/papers/market%20design%20monopsony.pdf) (with [Wilbur Townsend](https://wilburtownsend.github.io)). [New draft coming soon with new title "Stable Matching without Price Discrimination"]
+[Job Matching without Price Discrimination](https://wilburtownsend.github.io/papers/market%20design%20monopsony.pdf) (with [Wilbur Townsend](https://wilburtownsend.github.io)). [Previously circulated as "Stable Matching in Monopsonistic Labor Markets"]
 
 Abstract:
 
 
-Can centralized matching improve monopsonistic labor markets? We construct a job matching model in which each firm views workers as interchangeable and must pay all its workers the same salary. This requirement generates monopsonistic distortions: while an efficient stable outcome will always exist, inefficient outcomes can be stable as well. Workers' preferred stable outcome is efficient. In contrast, firms prefer inefficient stable outcomes in which they pay lower salaries. Though a strategyproof mechanism can elicit how workers value employment, it cannot elicit firms’ production technologies. Thus, centralized matching can improve monopsonistic labor markets when the market designer observes production.
+In many labor markets, firms do not price discriminate among their workers. In this paper, we study how a labor market with uniform salaries matches workers to jobs. To do so, we construct a job matching model in which each firm views workers as interchangeable and must pay all its workers the same salary. While an efficient stable outcome  always exists, inefficient outcomes can be stable as well. Workers' preferred stable outcome is efficient. In contrast, firms prefer inefficient stable outcomes in which they pay lower salaries. Though a strategyproof mechanism that implements an efficient stable outcome can elicit how workers value employment, it cannot elicit firms' production technologies.
 
 ---
 
