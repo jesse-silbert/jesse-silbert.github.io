@@ -18,7 +18,7 @@ Email: jesseas@princeton.edu
 
 **Research:**
 
-The Signaling Role of Large Language Models in Online Labor Markets (with [Anaïs Galdin](https://www.anaisgaldin.com/home)). [Work in progress]
+Large Language Models and the Signaling Role of Written Communication in Online Labor Markets (with [Anaïs Galdin](https://www.anaisgaldin.com/home)). [Work in progress]
 
 Abstract:
 
