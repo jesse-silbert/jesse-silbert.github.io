@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-Hi! I am a fifth year Ph.D. student at the Princeton University Department of Economics interested in industrial organization, market design, labor markets, online platforms, and matching theory.
+Hi! I am a sixth year Ph.D. student at the Princeton University Department of Economics interested in industrial organization, market design, labor markets, online platforms, and matching theory.
 
 In addition to economics, I am passionate about rock climbing, weird music, and good food.
 
@@ -18,13 +18,11 @@ Email: jesseas@princeton.edu
 
 **Research:**
 
-Learning in Thick Markets: Recommendation and Communication on an Online Job Platform (with [Anaïs Galdin](https://www.anaisgaldin.com/home)). [Work in progress]
+The Signaling Role of Large Language Models in Online Labor Markets (with [Anaïs Galdin](https://www.anaisgaldin.com/home)). [Work in progress]
 
 Abstract:
 
-Agents in two-sided matching markets use a mix of platform-guided recommendation and decentralized communication to learn about potential matches before matching. This paper studies whether, and how, market designers can use recommendation systems to incentivize effective communication between potential matches in the context of an online freelance labor market for tasks. With data from a major international online labor market, we build and estimate a novel model of freelancing supply and demand, in which firms post single-task online jobs they wish to outsource, freelancers submit monetary bids and cover letters for those jobs, the platform algorithmically ranks the bids on each job, and firms, seeing these recommendations, choose which freelancer to hire. In our model, freelancers pay up-front effort costs when writing cover letters, and the more writing effort they expend, the more informative the resulting signal is. However, when freelancers face congestion, they lower their equilibrium writing effort, hampering firms’ abilities to find the worker with the highest match quality. We use our estimated model to investigate how the platform could redesign the recommender system to lower congestion and thus incentivize more communication effort and improve the quality of realized matches. Specifically we study the equilibrium effects of a recommender system that promotes bids that exhibit more effort.
-
-[Extended Abstract](https://agaldin.github.io/webfiles/GALDINAnais_ExtendedAbstract_Freelancer.pdf)
+Large language models have the potential to transform the landscape of online labor marketplaces, not just through the channels of supply and demand but also the matching technology itself. In this paper, we use data from Freelancer.com, a major online labor platform, to investigate exactly how the advent of large language models (LLMs) affects the matching process in online labor markets. Our first major contribution is to develop a new measure of “content fit” that uses a LLM to quantify how well a cover letter responds to a given job description. We show that this measure is significantly predictive of labor demand, and that job posters have a high willingness to pay for increases in the “content fit” of cover letters. Motivated by this finding, we develop a Spence (1973) style model of signaling, in which Freelancers spend time (costly effort) to increase their cover letters’ levels of “content fit”, and the freelancers with a greater match quality with a given job posting are more easily (less marginally costly) able to expend that effort. This model along with our descriptive findings lend evidence to the theory that job posters are using “content fit” as a noisy but predictive signal of freelancer match quality. With this theory in hand, we then ask what happens to the efficiency of this signaling equilibrium when LLMs make it cheaper to increase “content fit”, thus garbling the signal. To do so, we estimate how the relationship between time spent writing and “content fit” changes after the introduction of LLMs onto the platform, and then simulate a signaling equilibrium, in which supply and demand are held fixed as they are in the pre-LLM time periods, but the signaling technology of the post-LLM time periods is used instead. One of our key contributions is to develop  estimation and identification strategies of scoring auctions where one of the dimensions of the score is a signal for quality whose weighting in the score is determined by the equilibrium itself. These strategies allow us to recover both supply and demand, as well as the relevant parameters of the signaling equilibrium. 
 
 ---
 
