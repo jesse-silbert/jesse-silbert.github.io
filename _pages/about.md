@@ -8,7 +8,8 @@ redirect_from:
   - /about.html
 ---
 
-I am a Ph.D. student at the Princeton University Department of Economics interested in industrial organization, market design, labor markets, online platforms, and matching theory. I am on the academic job market, 2025-2026.
+I am a Ph.D. student at the Princeton University Department of Economics interested in industrial organization, market design, labor markets, online platforms, and matching theory.
+I am on the academic job market, 2025-2026.
 
 Email: jesseas@princeton.edu
 
@@ -16,7 +17,8 @@ Email: jesseas@princeton.edu
 
 **Research:**
 
-Making Talk Cheap: LLMs and Signaling on Digital Labor Platforms (with [Anaïs Galdin](https://www.anaisgaldin.com/home)). [Work in progress]
+Making Talk Cheap: LLMs and Signaling on Digital Labor Platforms (with [Anaïs Galdin](https://www.anaisgaldin.com/home)).
+[Work in progress]
 
 Abstract:
 
@@ -25,7 +27,8 @@ In many markets, writing is used to signal quality: for example, workers send co
 ---
 
 
-[Job Matching without Price Discrimination](https://wilburtownsend.github.io/papers/market%20design%20monopsony.pdf) (with [Wilbur Townsend](https://wilburtownsend.github.io)). [Previously circulated as "Stable Matching in Monopsonistic Labor Markets"]
+[Job Matching without Price Discrimination](https://wilburtownsend.github.io/papers/market%20design%20monopsony.pdf) (with [Wilbur Townsend](https://wilburtownsend.github.io)).
+[Previously circulated as "Stable Matching in Monopsonistic Labor Markets"]
 
 **Revise and Resubmit, Games and Economic Behavior**
 
