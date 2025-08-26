@@ -18,6 +18,7 @@ Email: jesseas@princeton.edu
 **Research:**
 
 Making Talk Cheap: LLMs and Signaling on Digital Labor Platforms (with [Anaïs Galdin](https://www.anaisgaldin.com/home)).
+
 [Work in progress]
 
 Abstract:
@@ -28,6 +29,7 @@ In many markets, writing is used to signal quality: for example, workers send co
 
 
 [Job Matching without Price Discrimination](https://wilburtownsend.github.io/papers/market%20design%20monopsony.pdf) (with [Wilbur Townsend](https://wilburtownsend.github.io)).
+
 [Previously circulated as "Stable Matching in Monopsonistic Labor Markets"]
 
 **Revise and Resubmit, Games and Economic Behavior**
