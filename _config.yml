@@ -57,7 +57,7 @@ yandex_site_verification :
 
 # Social Sharing
 twitter:
-  username               : &twitter
+  username               : 
 facebook:
   username               :
   app_id                 :
@@ -105,11 +105,11 @@ author:
   linkedin         :
   orcid            : #"http://orcid.org/yourorcidurl"
   pinterest        :
-  soundcloud       : #"https://soundcloud.com/jesse-silbert"
+  soundcloud       : 
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : "@SilbertJesse"
+  twitter          : 
   vine             :
   weibo            :
   xing             :
