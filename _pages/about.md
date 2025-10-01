@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a Ph.D. student at the Princeton University Department of Economics interested in industrial organization, market design, labor markets, online platforms, and matching theory.
+I am a Ph.D. student at the Princeton University Department of Economics. I study empirical industrial organization, the economic impacts of AI, labor markets, online platforms, and matching theory.
 I am on the academic job market, 2025-2026.
 
 Email: jesseas@princeton.edu
@@ -17,13 +17,13 @@ Email: jesseas@princeton.edu
 
 **Research:**
 
-Making Talk Cheap: LLMs and Signaling on Digital Labor Platforms (with [Anaïs Galdin](https://www.anaisgaldin.com/home)).
+Making Talk Cheap: Generative AI and Labor Market Signaling (with [Anaïs Galdin](https://www.anaisgaldin.com/home)).
 
 [Work in progress]
 
 Abstract:
 
-In many markets, writing is used to signal quality: for example, workers send cover letters to employers, and prospective college students send application essays to admissions offices, and so on. However, the advent of generative AI and large language models (LLMs) has dramatically lowered the cost of producing written content, thus threatening the usefulness of writing as a signal. In this paper, we study how markets that rely on costly written communication are affected by the flattening of writing costs due to the widespread adoption of LLMs, and which alternative market designs may mitigate efficiency losses in the face of this technological change. To do so, we use data from Freelancer.com, a major digital labor platform, to isolate and quantify how the introduction of LLMs affects matching efficiency in online labor markets. We develop a novel measure of text customization that uses a LLM to quantify how well a cover letter responds to a given job description. We show that, before LLMs, this measure is significantly predictive of labor demand, and that job posters have a high willingness to pay for it, but not so after LLMs are introduced. Motivated by this finding, we develop a model that combines three typically distinct modeling approaches: (1) a Spence signaling model in which workers invest costly effort to produce noisy signals that positively correlate with their ability in equilibrium, (2) a demand model in which employers value worker applications following the literature on discrete choice demand, and (3) a scoring auction in which workers submit applications competing on multiple dimensions to win a contract. We estimate the model with a novel simulation-based estimator that exploits the information structure of our model's equilibrium to identify workers' joint distributions of ability and reservation wages, as well as how employers trade off worker ability and price. Having estimated the model, we then simulate a counterfactual equilibrium in which we imagine that LLMs have completely eroded workers’ ability to signal their ability, while holding fixed pre-LLM supply and demand. We thus are able to quantity the impact that LLMs have on market efficiency through their effects on signaling alone. Finally, we draw conclusions on how alternative labor contract designs can regain some of the efficiency lost due to LLMs reducing written communication to cheap talk.
+This paper studies how large language models (LLMs) like ChatGPT lower the cost of producing written communication and disrupt markets that have traditionally relied on writing as a costly signal of quality (e.g., job applications, college essays). Using data from \texttt{Freelancer.com}, a major digital labor platform, we explore the effects of LLMs' disruption of labor market signaling on equilibrium market outcomes. We develop a novel LLM-based measure to quantify how tailored an application is to a given job posting. Taken to the data, the measure significantly predicts labor demand in the period before LLMs are introduced, but not after. Motivated by this finding, we develop a structural model of labor market signaling, in which workers invest costly effort to produce noisy signals that predict their ability in equilibrium. We estimate the model on pre-LLM data using a novel simulation-based estimator, and then simulate a counterfactual equilibrium in which LLMs reduce writing costs to zero, dismantling workers' capacity to signal their ability. Our counterfactual analysis suggests that LLMs cause employers to divert hiring away from higher ability workers towards lower ability workers, thereby lowering wages and leading to a reduction in worker surplus and virtually no effect on employer surplus.
 
 ---
 
