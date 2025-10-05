@@ -39,6 +39,8 @@ Abstract:
 
 In many labor markets, firms do not price discriminate among their workers. In this paper, we study how a labor market with uniform salaries matches workers to jobs. To do so, we construct a job matching model in which each firm views workers as interchangeable and must pay all its workers the same salary. While an efficient stable outcome  always exists, inefficient outcomes can be stable as well. Workers' preferred stable outcome is efficient. In contrast, firms prefer inefficient stable outcomes in which they pay lower salaries. Though a strategyproof mechanism that implements an efficient stable outcome can elicit how workers value employment, it cannot elicit firms' production technologies.
 
+---
+
 **Work in Progress:**
 
 Congestion and Effortful Information Provision in Two-Sided Markets (with [Anaïs Galdin](https://www.anaisgaldin.com/home)).
