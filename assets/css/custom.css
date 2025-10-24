@@ -1,9 +1,17 @@
-/* Bigger circular avatar in the left sidebar */
-.author__avatar img {
-  width: 200px;   /* try 160–240 to taste */
-  height: 200px;
+/* Display avatar as background so it can never distort */
+.page__sidebar .author__avatar img {
+  display: none !important;
 }
-.author__avatar { max-width: 200px; }
 
-/* Optional: slightly wider sidebar so big images don't feel cramped */
-.sidebar { max-width: 320px; }
+.page__sidebar .author__avatar {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  margin: 0 auto;
+
+  background-image: url('/images/profile_800.jpg'); /* <-- use your real filename */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
