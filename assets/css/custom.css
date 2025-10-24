@@ -20,18 +20,24 @@
   overflow: hidden;
 }
 
-/* --- DESKTOP: widen the actual sidebar class the theme uses --- */
+/* --- DESKTOP: make room for a large sidebar avatar (no overlap) --- */
 @media (min-width: 64em) {
-  /* Minimal Mistakes uses .sidebar (often .sidebar.sticky). Target both variants. */
+  /* 1) Widen the actual sidebar column (covers both variants) */
   .sidebar,
-  .page__sidebar {
-    max-width: 420px !important;
-    flex: 0 0 420px !important;
+  .page__sidebar { 
+    width: 440px !important;
+    max-width: 440px !important;
+    flex: 0 0 440px !important;
   }
-  /* Let content use the remaining space */
-  .page__content {
-    flex: 1 1 auto !important;
+
+  /* 2) Push ALL main content wrappers to the right by the same amount   */
+  /*    (hit whichever your build uses: page__content, archive, or main) */
+  .page__content,
+  .archive,
+  #main { 
+    margin-left: 460px !important;   /* sidebar width + a little padding */
     max-width: none !important;
+    flex: 1 1 auto !important;
   }
 }
 
