@@ -18,13 +18,13 @@
   overflow: hidden;
 }
 
-/* === LAYOUT (desktop) — two-column, no overlap === */
+/* === DESKTOP LAYOUT — two-column, no overlap; tighter gap === */
 @media (min-width: 64em) {
-  #main {                           /* wrapper becomes a flex row */
+  #main {
     display: flex !important;
-    gap: 1rem !important;           /* tighter gap (was 2rem) */
+    gap: 0.5rem !important;         /* tighten space between photo and text */
     align-items: flex-start;
-    max-width: 1800px !important;   /* page width on large screens */
+    max-width: 1800px !important;
     margin: 0 auto !important;
   }
 
@@ -46,7 +46,7 @@
   }
 }
 
-/* === LAYOUT (mobile/tablet) === */
+/* === MOBILE/TABLET LAYOUT === */
 @media (max-width: 64em) {
   .author__avatar, .author__content .author__avatar {
     width: 240px !important; height: 240px !important;
@@ -66,7 +66,7 @@
 /* Align masthead container with page width so centering is true */
 .masthead__inner-wrap { max-width: 1800px !important; margin: 0 auto !important; }
 
-/* Make name bigger, unbolded, and behave like plain text */
+/* Make name bigger, unbolded, and behave like plain text; center over photo */
 .masthead, .masthead__inner-wrap { border-bottom: none !important; }
 
 .masthead .site-title,
@@ -85,5 +85,7 @@ li.masthead__menu-item.masthead__menu-item--lg a.site-title {
   display: block;
   width: 440px;                           /* same as sidebar width */
   text-align: center;
-  margin: 0;                              /* no extra offset */
+  /* place it flush with the page container’s left edge, so width centers over photo */
+  margin-left: calc((100% - 1800px) / 2) !important;
+  margin-right: 0 !important;
 }
