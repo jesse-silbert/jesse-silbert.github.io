@@ -1,0 +1,9 @@
+/* Bigger circular avatar in the left sidebar */
+.author__avatar img {
+  width: 200px;   /* try 160–240 to taste */
+  height: 200px;
+}
+.author__avatar { max-width: 200px; }
+
+/* Optional: slightly wider sidebar so big images don't feel cramped */
+.sidebar { max-width: 320px; }
