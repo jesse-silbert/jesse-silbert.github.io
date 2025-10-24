@@ -1,43 +1,45 @@
-/* === Fix avatar === */
+/* --- Avatar via background, never distorts --- */
 .author__avatar img { display: none !important; }
 
-/* Target avatar in *any* layout (sidebar or mobile) */
 .author__avatar,
 .author__content .author__avatar {
-  width: 360px !important;
+  width: 360px !important;           /* avatar diameter */
   height: 360px !important;
   max-width: 360px !important;
   max-height: 360px !important;
+  box-sizing: border-box;            /* include border in the width */
+  border: 6px solid #fff;            /* keep the nice white ring */
   border-radius: 50%;
   margin: 0 auto;
-  background-image: url('/images/profile_square.jpeg'); /* exact name */
+
+  background-image: url('/images/profile_square.jpeg'); /* exact filename */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   overflow: hidden;
 }
 
-/* Give room on large screens */
+/* Desktop: widen the sidebar so the avatar fits (avatar 360 + padding) */
 @media (min-width: 64em) {
-  .page__sidebar { max-width: 420px !important; flex: 0 0 420px !important; }
-  .page__content { flex-basis: calc(100% - 420px) !important; }
+  .page__sidebar { max-width: 460px !important; flex: 0 0 460px !important; }
+  .page__content { flex-basis: calc(100% - 460px) !important; }
 }
 
-/* On small screens, keep it big and centered */
+/* Mobile/tablet: still large but reasonable */
 @media (max-width: 64em) {
   .author__avatar,
   .author__content .author__avatar {
-    width: 260px !important;
-    height: 260px !important;
+    width: 240px !important;
+    height: 240px !important;
+    max-width: 240px !important;
+    max-height: 240px !important;
   }
-  .author__urls-wrapper { display: none !important; } /* removes ghost bubble */
+  /* remove the mobile follow bubble and any link list */
+  .author__urls-wrapper,
+  .author__urls { display: none !important; }
 }
 
-/* === Masthead title === */
-.site-title {
-  font-size: 2rem !important;
-  font-weight: 600 !important;
-}
-@media (max-width: 48em) {
-  .site-title { font-size: 1.9rem !important; }
+/* Bigger site title in the masthead */
+.site-title { font-size: 2rem !important; font-weight: 600 !important; }
+@media (max-width: 48em) { .site-title { font-size: 1.9rem !important; }
 }
