@@ -1,14 +1,15 @@
-/* --- Avatar via background, never distorts --- */
+/* --- AVATAR (render as background; never distorts) --- */
 .author__avatar img { display: none !important; }
 
+/* Catch BOTH desktop sidebar and mobile author block */
 .author__avatar,
 .author__content .author__avatar {
-  width: 360px !important;           /* avatar diameter */
-  height: 360px !important;
-  max-width: 360px !important;
-  max-height: 360px !important;
-  box-sizing: border-box;            /* include border in the width */
-  border: 6px solid #fff;            /* keep the nice white ring */
+  width: 340px !important;             /* set the size you want */
+  height: 340px !important;
+  max-width: 340px !important;
+  max-height: 340px !important;
+  box-sizing: border-box;               /* include border in the box */
+  border: 6px solid #fff;               /* white ring */
   border-radius: 50%;
   margin: 0 auto;
 
@@ -19,27 +20,29 @@
   overflow: hidden;
 }
 
-/* Desktop: widen the sidebar so the avatar fits (avatar 360 + padding) */
+/* —— DESKTOP: give the sidebar enough width so the avatar cannot overlap —— */
 @media (min-width: 64em) {
-  .page__sidebar { max-width: 460px !important; flex: 0 0 460px !important; }
-  .page__content { flex-basis: calc(100% - 460px) !important; }
+  .page { display: flex !important; }
+  .page__sidebar { max-width: 420px !important; flex: 0 0 420px !important; }
+  .page__content { flex: 1 1 auto !important; max-width: none !important; }
 }
 
-/* Mobile/tablet: still large but reasonable */
+/* —— MOBILE/TABLET: keep the avatar large & centered —— */
 @media (max-width: 64em) {
   .author__avatar,
   .author__content .author__avatar {
     width: 240px !important;
     height: 240px !important;
-    max-width: 240px !important;
-    max-height: 240px !important;
   }
-  /* remove the mobile follow bubble and any link list */
-  .author__urls-wrapper,
-  .author__urls { display: none !important; }
+
+  /* Hide only the Follow button bubble — keep email visible */
+  .author__urls-wrapper .btn {
+    display: none !important;
+  }
 }
 
-/* Bigger site title in the masthead */
+/* Bigger site title */
 .site-title { font-size: 2rem !important; font-weight: 600 !important; }
-@media (max-width: 48em) { .site-title { font-size: 1.9rem !important; }
+@media (max-width: 48em) {
+  .site-title { font-size: 1.9rem !important; }
 }
