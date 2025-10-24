@@ -15,3 +15,8 @@
   background-repeat: no-repeat;
   overflow: hidden;
 }
+
+/* Hide the mobile 'Follow' toggle in the author box */
+@media (max-width: 64em) {
+  .author__urls-wrapper .btn { display: none !important; }
+}
