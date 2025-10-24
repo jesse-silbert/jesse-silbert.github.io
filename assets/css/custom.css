@@ -1,15 +1,15 @@
-/* --- AVATAR (render as background; never distorts) --- */
+/* --- Avatar as background: never distorts --- */
 .author__avatar img { display: none !important; }
 
-/* Catch BOTH desktop sidebar and mobile author block */
+/* Works for both desktop sidebar and mobile author block */
 .author__avatar,
 .author__content .author__avatar {
-  width: 340px !important;             /* set the size you want */
+  width: 340px !important;
   height: 340px !important;
   max-width: 340px !important;
   max-height: 340px !important;
-  box-sizing: border-box;               /* include border in the box */
-  border: 6px solid #fff;               /* white ring */
+  box-sizing: border-box;
+  border: 6px solid #fff;
   border-radius: 50%;
   margin: 0 auto;
 
@@ -20,29 +20,31 @@
   overflow: hidden;
 }
 
-/* —— DESKTOP: give the sidebar enough width so the avatar cannot overlap —— */
+/* --- DESKTOP: widen the actual sidebar class the theme uses --- */
 @media (min-width: 64em) {
-  .page { display: flex !important; }
-  .page__sidebar { max-width: 420px !important; flex: 0 0 420px !important; }
-  .page__content { flex: 1 1 auto !important; max-width: none !important; }
+  /* Minimal Mistakes uses .sidebar (often .sidebar.sticky). Target both variants. */
+  .sidebar,
+  .page__sidebar {
+    max-width: 420px !important;
+    flex: 0 0 420px !important;
+  }
+  /* Let content use the remaining space */
+  .page__content {
+    flex: 1 1 auto !important;
+    max-width: none !important;
+  }
 }
 
-/* —— MOBILE/TABLET: keep the avatar large & centered —— */
+/* --- MOBILE/TABLET: keep avatar generous; keep email visible; hide only Follow button --- */
 @media (max-width: 64em) {
   .author__avatar,
   .author__content .author__avatar {
     width: 240px !important;
     height: 240px !important;
   }
-
-  /* Hide only the Follow button bubble — keep email visible */
-  .author__urls-wrapper .btn {
-    display: none !important;
-  }
+  .author__urls-wrapper .btn { display: none !important; } /* hide only the toggle */
 }
 
-/* Bigger site title */
-.site-title { font-size: 2rem !important; font-weight: 600 !important; }
-@media (max-width: 48em) {
-  .site-title { font-size: 1.9rem !important; }
-}
+/* --- Bigger site title in the masthead --- */
+.masthead .site-title { font-size: 2.1rem !important; font-weight: 700 !important; }
+@media (max-width: 48em) { .masthead .site-title { font-size: 1.9rem !important; } }
