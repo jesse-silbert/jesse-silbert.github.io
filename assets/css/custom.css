@@ -7,119 +7,66 @@
   height: 340px !important;
   max-width: 340px !important;
   max-height: 340px !important;
-  box-sizing: border-box;         /* keep ring inside the size */
-  border: 6px solid #fff;         /* white ring */
+  box-sizing: border-box;           /* ring stays inside size */
+  border: 6px solid #fff;
   border-radius: 50%;
   margin: 0 auto;
-
-  background-image: url('/images/profile_square.jpeg'); /* use your exact filename */
+  background-image: url('/images/profile_square.jpeg'); /* exact filename */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   overflow: hidden;
 }
 
-/* === DESKTOP LAYOUT: real two-column, no overlap === */
+/* === LAYOUT (desktop) — two-column, no overlap === */
 @media (min-width: 64em) {
-  /* your wrapper and columns per your DOM: #main > .sidebar.sticky + article.page */
-  #main { display: flex !important; gap: 2rem; align-items: flex-start; }
+  #main {                           /* wrapper becomes a flex row */
+    display: flex !important;
+    gap: 2rem;
+    align-items: flex-start;
+    max-width: 1800px !important;   /* page width on large screens */
+    margin: 0 auto !important;
+  }
 
-  .sidebar.sticky,
-  .sidebar {                         /* widen the actual sidebar */
+  .sidebar.sticky, .sidebar {       /* widen actual sidebar column */
     flex: 0 0 440px !important;
     max-width: 440px !important;
   }
 
-  article.page,
-  .page__content,
-  .archive {                         /* content takes remaining width */
+  article.page, .page__content {    /* text column width */
     flex: 1 1 auto !important;
-    max-width: none !important;
+    max-width: 1100px !important;   /* tweak 1100–1200 to taste */
   }
 }
 
-/* === MOBILE/TABLET: generous avatar, keep email visible === */
+/* === LAYOUT (mobile/tablet) === */
 @media (max-width: 64em) {
-  .author__avatar,
-  .author__content .author__avatar {
-    width: 240px !important;
-    height: 240px !important;
+  .author__avatar, .author__content .author__avatar {
+    width: 240px !important; height: 240px !important;
   }
-
-  /* hide only the mobile “Follow” toggle, not the email line */
+  /* hide only the mobile Follow toggle; keep real links if present */
   .author__urls-wrapper .btn { display: none !important; }
 }
 
-/* === Bigger site title in the masthead === */
-.masthead .site-title { font-size: 2.1rem !important; font-weight: 700 !important; }
-@media (max-width: 48em) { .masthead .site-title { font-size: 1.9rem !important; } }
-
-/* 1) Turn OFF sticky behavior for the left column */
+/* Turn OFF sticky behavior for the left column */
 .sidebar.sticky { position: static !important; top: auto !important; }
 
-/* 2) Make the overall content area wider, and give the text column more room */
-@media (min-width: 64em) {
-  /* widen the whole main container */
-  #main { max-width: 1400px !important; margin: 0 auto; }
+/* Remove any Follow bubble/list wrappers entirely (if you don't use them) */
+.author__urls-wrapper, .author__urls-toggle, .author__urls,
+.author__content .author__urls-wrapper { display: none !important; }
 
-  /* widen the article/text column */
-  article.page { max-width: 900px !important; }
-  /* If you want even wider text, try 960px or 1000px instead of 900px */
-}
+/* === HEADER (name styling) === */
+.masthead, .masthead__inner-wrap { border-bottom: none !important; }
 
-/* Remove the mobile Follow bubble everywhere (and any empty link list) */
-.author__urls-wrapper,
-.author__urls-toggle,
-.author__urls,
-.author__content .author__urls-wrapper {
-  display: none !important;
-}
-
-/* === HEADER (make your name larger / change weight / font) === */
-.masthead .site-title {
-  font-size: 2.6rem !important;     /* bump size */
-  font-weight: 400 !important;      /* normal weight instead of bold */
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;  /* optional: adjust typeface */
-  letter-spacing: 0.5px;            /* subtle spacing for cleaner look */
-}
-
-/* === REMOVE THIN HORIZONTAL LINE BELOW HEADER === */
-.masthead { border-bottom: none !important; }
-
-/* === WIDEN TEXT COLUMN === */
-@media (min-width: 64em) {
-  /* widen the content block */
-  article.page,
-  .page__content {
-    max-width: 1000px !important;   /* try 960–1100px if you want wider */
-  }
-
-  /* center the overall page container on large screens */
-  #main {
-    max-width: 1600px !important;
-    margin: 0 auto !important;
-  }
-}
-
-/* Make header name bigger, normal weight, and act like plain text */
 .masthead .site-title,
 .masthead__inner-wrap .site-title,
 li.masthead__menu-item.masthead__menu-item--lg a.site-title {
-  font-size: 3rem !important;      /* adjust 2.8–3.2rem to taste */
-  font-weight: 400 !important;     /* not bold */
+  font-size: 3rem !important;           /* header name size */
+  font-weight: 400 !important;          /* not bold */
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
   letter-spacing: 0.5px;
   color: #000 !important;
   text-decoration: none !important;
-  pointer-events: none;             /* disables the link behavior */
+  pointer-events: none;                  /* behave like plain text */
   cursor: default;
-}
-
-/* Optional: remove faint divider under the header */
-.masthead { border-bottom: none !important; }
-
-/* Optional: widen the text column more */
-@media (min-width: 64em) {
-  #main { max-width: 1800px !important; margin: 0 auto !important; }
-  article.page, .page__content { max-width: 1100px !important; } /* try 1150–1200 if you want wider */
 }
