@@ -53,3 +53,16 @@
 /* === Bigger site title in the masthead === */
 .masthead .site-title { font-size: 2.1rem !important; font-weight: 700 !important; }
 @media (max-width: 48em) { .masthead .site-title { font-size: 1.9rem !important; } }
+
+/* 1) Turn OFF sticky behavior for the left column */
+.sidebar.sticky { position: static !important; top: auto !important; }
+
+/* 2) Make the overall content area wider, and give the text column more room */
+@media (min-width: 64em) {
+  /* widen the whole main container */
+  #main { max-width: 1400px !important; margin: 0 auto; }
+
+  /* widen the article/text column */
+  article.page { max-width: 900px !important; }
+  /* If you want even wider text, try 960px or 1000px instead of 900px */
+}
