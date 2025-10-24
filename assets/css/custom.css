@@ -9,7 +9,7 @@
   border-radius: 50%;
   margin: 0 auto;
 
-  background-image: url('/images/profile_800.jpg'); /* <-- use your real filename */
+  background-image: url('/images/profile_square.jpeg'); /* <-- use your real filename */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
