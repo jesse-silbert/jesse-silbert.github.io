@@ -9,31 +9,34 @@ redirect_from:
 ---
 
 <style>
-/* Desktop: widen sidebar a bit so avatar never crowds text */
+/* Desktop: widen sidebar so the avatar fits comfortably */
 @media (min-width: 64em) {
-  .page__sidebar { max-width: 380px !important; flex: 0 0 380px !important; }
-  .page__content { flex-basis: calc(100% - 380px) !important; }
+  .page__sidebar {
+    max-width: 380px !important;
+    flex: 0 0 380px !important;
+  }
+  .page__content {
+    flex-basis: calc(100% - 380px) !important;
+  }
 }
 
-/* Avatar: exact square box, no distortion */
+/* Avatar: perfectly circular, centered, no distortion */
 .page__sidebar .author__avatar {
-  width: 300px !important;            /* change to 280–320 if you want */
-  aspect-ratio: 1 / 1 !important;     /* forces a square */
-  height: auto !important;            /* let aspect-ratio control height */
+  width: 300px !important;   /* adjust 280–320px if desired */
+  height: 300px !important;  /* matches width for perfect circle */
   max-width: 300px !important;
   margin: 0 auto;
 }
+
 .page__sidebar .author__avatar img {
   width: 100% !important;
   height: 100% !important;
-  max-width: none !important;         /* cancel theme’s max-width */
-  aspect-ratio: 1 / 1 !important;     /* square image box */
-  object-fit: cover !important;       /* fill box without stretching */
-  border-radius: 50% !important;      /* circle */
+  object-fit: cover !important;
+  border-radius: 50% !important; /* ensures circular crop */
   display: block;
 }
 </style>
-testtest
+test
 
 I am a Ph.D. student at the Princeton University Department of Economics. I am on the 2025-2026 academic job market.
 
