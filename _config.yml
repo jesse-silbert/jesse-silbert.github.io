@@ -82,7 +82,7 @@ analytics:
 author:
   name             : #"Your Sidebar Name"
   avatar           : "profile_square.jpeg"
-  bio              : "Economics PhD Student at Princeton University"
+  bio              : 
   location         : 
   employer         :
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
