@@ -100,3 +100,26 @@
     margin: 0 auto !important;
   }
 }
+
+/* Make header name bigger, normal weight, and act like plain text */
+.masthead .site-title,
+.masthead__inner-wrap .site-title,
+li.masthead__menu-item.masthead__menu-item--lg a.site-title {
+  font-size: 3rem !important;      /* adjust 2.8–3.2rem to taste */
+  font-weight: 400 !important;     /* not bold */
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+  letter-spacing: 0.5px;
+  color: #000 !important;
+  text-decoration: none !important;
+  pointer-events: none;             /* disables the link behavior */
+  cursor: default;
+}
+
+/* Optional: remove faint divider under the header */
+.masthead { border-bottom: none !important; }
+
+/* Optional: widen the text column more */
+@media (min-width: 64em) {
+  #main { max-width: 1800px !important; margin: 0 auto !important; }
+  article.page, .page__content { max-width: 1100px !important; } /* try 1150–1200 if you want wider */
+}
