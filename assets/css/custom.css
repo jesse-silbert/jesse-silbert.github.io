@@ -22,7 +22,7 @@
 @media (min-width: 64em) {
   #main {                           /* wrapper becomes a flex row */
     display: flex !important;
-    gap: 2rem;
+    gap: 1rem !important;           /* tighter gap (was 2rem) */
     align-items: flex-start;
     max-width: 1800px !important;   /* page width on large screens */
     margin: 0 auto !important;
@@ -31,6 +31,13 @@
   .sidebar.sticky, .sidebar {       /* widen actual sidebar column */
     flex: 0 0 440px !important;
     max-width: 440px !important;
+  }
+
+  /* nudge the avatar to the RIGHT edge of the sidebar */
+  .sidebar .author__avatar,
+  .sidebar.sticky .author__avatar {
+    margin-left: auto !important;
+    margin-right: 0 !important;
   }
 
   article.page, .page__content {    /* text column width */
@@ -56,17 +63,27 @@
 .author__content .author__urls-wrapper { display: none !important; }
 
 /* === HEADER (name styling) === */
+/* Align masthead container with page width so centering is true */
+.masthead__inner-wrap { max-width: 1800px !important; margin: 0 auto !important; }
+
+/* Make name bigger, unbolded, and behave like plain text */
 .masthead, .masthead__inner-wrap { border-bottom: none !important; }
 
 .masthead .site-title,
 .masthead__inner-wrap .site-title,
 li.masthead__menu-item.masthead__menu-item--lg a.site-title {
-  font-size: 3rem !important;           /* header name size */
-  font-weight: 400 !important;          /* not bold */
+  font-size: 3.2rem !important;          /* bigger name */
+  font-weight: 400 !important;           /* unbolded */
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
   letter-spacing: 0.5px;
   color: #000 !important;
   text-decoration: none !important;
-  pointer-events: none;                  /* behave like plain text */
+  pointer-events: none;                   /* disable link behavior */
   cursor: default;
+
+  /* Center the title over the sidebar/photo column */
+  display: block;
+  width: 440px;                           /* same as sidebar width */
+  text-align: center;
+  margin: 0;                              /* no extra offset */
 }
