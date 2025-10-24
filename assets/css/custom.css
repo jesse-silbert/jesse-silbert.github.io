@@ -1,31 +1,38 @@
-/* Display avatar as background so it can never distort */
-.page__sidebar .author__avatar img {
-  display: none !important;
-}
+/* --- AVATAR: use background so it can’t distort --- */
+.author__avatar img { display: none !important; }
 
-/* Avatar circle */
-.page__sidebar .author__avatar {
-  width: 340px !important;        /* size */
+.author__avatar {
+  /* default (desktop-ish) size */
+  width: 340px !important;
   height: 340px !important;
-  max-width: 340px !important;    /* override theme clamp */
+  max-width: 340px !important;
   max-height: 340px !important;
+
   border-radius: 50%;
   margin: 0 auto;
-
-  background-image: url('/images/profile_square.jpeg'); /* use your exact file */
+  background-image: url('/images/profile_square.jpeg'); /* <-- use your exact filename */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   overflow: hidden;
 }
 
-/* Slightly wider sidebar so big image fits cleanly */
+/* Desktop layout: give the sidebar room so the avatar isn’t clamped */
 @media (min-width: 64em) {
   .page__sidebar { max-width: 400px !important; flex: 0 0 400px !important; }
   .page__content { flex-basis: calc(100% - 400px) !important; }
 }
 
-/* Hide the mobile 'Follow' toggle in the author box */
+/* Mobile/tablet: make the avatar bigger too (theme shrinks it otherwise) */
 @media (max-width: 64em) {
-  .author__urls-wrapper .btn { display: none !important; }
+  .author__avatar { width: 220px !important; height: 220px !important; }
 }
+
+/* Remove the mobile “Follow” wrapper entirely so no ghost icon remains */
+@media (max-width: 64em) {
+  .author__urls-wrapper { display: none !important; }
+}
+
+/* Make your name in the masthead larger */
+.site-title { font-size: 2rem !important; }            /* desktop */
+@media (max-width: 48em) { .site-title { font-size: 1.9rem !important; } }  /* mobile */
