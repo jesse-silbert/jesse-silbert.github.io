@@ -9,23 +9,30 @@ redirect_from:
 ---
 
 <style>
-/* Make the profile image bigger and perfectly circular */
+/* Widen the sidebar so the larger avatar fits */
+@media (min-width: 64em) {            /* desktop only */
+  .sidebar {
+    max-width: 360px !important;
+    flex: 0 0 360px !important;       /* ensure layout reserves the width */
+  }
+}
+
+/* Bigger, perfectly circular avatar that stays inside the sidebar */
 .author__avatar {
-  width: 320px !important;       /* overall container size */
+  width: 320px !important;
   height: 320px !important;
   max-width: 320px !important;
   margin: 0 auto;
 }
-
 .author__avatar img {
   width: 320px !important;
   height: 320px !important;
-  border-radius: 50% !important; /* ensures true circle crop */
-  object-fit: cover !important;  /* keeps aspect ratio, fills circle */
+  border-radius: 50% !important;
+  object-fit: cover !important;
   display: block;
 }
 </style>
-test
+
 I am a Ph.D. student at the Princeton University Department of Economics. I am on the 2025-2026 academic job market.
 
 I study empirical industrial organization, labor markets, the economics of AI, two-sided platforms, and matching theory.
