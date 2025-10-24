@@ -9,10 +9,21 @@ redirect_from:
 ---
 
 <style>
-/* Make the profile image bigger and prevent distortion */
-.author__avatar,
-.author__avatar img { width: 280px !important; height: 280px !important; }
-.author__avatar img { object-fit: cover; border-radius: 50%; }
+/* Make the profile image bigger and perfectly circular */
+.author__avatar {
+  width: 320px !important;       /* overall container size */
+  height: 320px !important;
+  max-width: 320px !important;
+  margin: 0 auto;
+}
+
+.author__avatar img {
+  width: 320px !important;
+  height: 320px !important;
+  border-radius: 50% !important; /* ensures true circle crop */
+  object-fit: cover !important;  /* keeps aspect ratio, fills circle */
+  display: block;
+}
 </style>
 
 I am a Ph.D. student at the Princeton University Department of Economics. I am on the 2025-2026 academic job market.
