@@ -18,7 +18,7 @@ I study empirical industrial organization, labor markets, the economics of AI, t
 * Industrial Organization
 * Labor Economics
 
-*Email:* jesseas@princeton.edu
+**Email:** jesseas@princeton.edu
 
 ---
 
