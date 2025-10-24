@@ -3,17 +3,26 @@
   display: none !important;
 }
 
+/* Avatar circle */
 .page__sidebar .author__avatar {
-  width: 340px;
-  height: 340px;
+  width: 340px !important;        /* size */
+  height: 340px !important;
+  max-width: 340px !important;    /* override theme clamp */
+  max-height: 340px !important;
   border-radius: 50%;
   margin: 0 auto;
 
-  background-image: url('/images/profile_square.jpeg'); /* <-- use your real filename */
+  background-image: url('/images/profile_square.jpeg'); /* use your exact file */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   overflow: hidden;
+}
+
+/* Slightly wider sidebar so big image fits cleanly */
+@media (min-width: 64em) {
+  .page__sidebar { max-width: 400px !important; flex: 0 0 400px !important; }
+  .page__content { flex-basis: calc(100% - 400px) !important; }
 }
 
 /* Hide the mobile 'Follow' toggle in the author box */
