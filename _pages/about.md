@@ -11,7 +11,7 @@ redirect_from:
 <style>
 /* Make the profile image bigger and prevent distortion */
 .author__avatar,
-.author__avatar img { width: 220px !important; height: 220px !important; }
+.author__avatar img { width: 280px !important; height: 280px !important; }
 .author__avatar img { object-fit: cover; border-radius: 50%; }
 </style>
 
