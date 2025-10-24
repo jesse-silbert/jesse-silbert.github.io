@@ -9,18 +9,32 @@ redirect_from:
 ---
 
 <style>
-.page__sidebar .author__avatar,
-.page__sidebar .author__avatar img {
-  width: 300px !important;
-  height: 300px !important;
+/* Desktop: widen the sidebar so a 320px avatar fits */
+@media (min-width: 64em) {
+  .page__sidebar {
+    max-width: 380px !important;
+    flex: 0 0 380px !important;
+  }
+  .page__content {
+    flex-basis: calc(100% - 380px) !important;
+  }
+}
+
+/* Bigger, perfectly circular avatar */
+.page__sidebar .author__avatar {
+  width: 320px !important;
+  height: 320px !important;
+  max-width: 320px !important;
+  margin: 0 auto;
 }
 .page__sidebar .author__avatar img {
-  object-fit: cover !important;
+  width: 320px !important;
+  height: 320px !important;
   border-radius: 50% !important;
+  object-fit: cover !important;
   display: block;
 }
 </style>
-test
 
 I am a Ph.D. student at the Princeton University Department of Economics. I am on the 2025-2026 academic job market.
 
