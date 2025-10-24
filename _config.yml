@@ -8,10 +8,11 @@
 # Site Settings
 locale                   : "en-US"
 title                    : "Jesse Silbert"
+masthead_title           : "Jesse Silbert"
 title_separator          : "-"
 name                     : &name "Jesse Silbert"
 description              : #&description ""
-url                      : https://jesse-silbert.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : #https://jesse-silbert.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "jesse-silbert.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
