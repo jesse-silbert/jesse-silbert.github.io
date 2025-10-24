@@ -87,3 +87,14 @@ li.masthead__menu-item.masthead__menu-item--lg a.site-title {
   pointer-events: none;                /* behave like plain text */
   cursor: default;
 }
+
+/* Make the masthead name bigger (targets the actual link element you have) */
+.masthead__menu-item--lg > a,
+.masthead .masthead__menu-item--lg > a,
+.masthead__inner-wrap .masthead__menu-item--lg > a {
+  font-size: 3.2rem !important;   /* increase as needed: 3.4rem, 3.6rem, etc. */
+  font-weight: 400 !important;    /* unbolded */
+  line-height: 1.1 !important;
+  text-decoration: none !important;
+  color: #000 !important;
+}
