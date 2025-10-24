@@ -8,30 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-<style>
-/* Completely override Minimal Mistakes avatar rules */
-.page__sidebar .author__avatar,
-.page__sidebar .author__avatar img {
-  width: 300px !important;
-  height: 300px !important;
-  max-width: 300px !important;
-  max-height: 300px !important;
-  border-radius: 50% !important;
-  object-fit: cover !important;
-  display: block !important;
-  margin: 0 auto !important;
-}
-
-/* Force the image to keep a 1:1 aspect ratio even inside flex/grid wrappers */
-.page__sidebar .author__avatar {
-  aspect-ratio: 1 / 1 !important;
-  overflow: hidden !important;
-}
-.page__sidebar .author__avatar img {
-  aspect-ratio: 1 / 1 !important;
-}
-</style>
-test
+testtest
 
 I am a Ph.D. student at the Princeton University Department of Economics. I am on the 2025-2026 academic job market.
 
