@@ -66,3 +66,11 @@
   article.page { max-width: 900px !important; }
   /* If you want even wider text, try 960px or 1000px instead of 900px */
 }
+
+/* Remove the mobile Follow bubble everywhere (and any empty link list) */
+.author__urls-wrapper,
+.author__urls-toggle,
+.author__urls,
+.author__content .author__urls-wrapper {
+  display: none !important;
+}
