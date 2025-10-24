@@ -7,8 +7,6 @@ redirect_from:
   - /about/
   - /about.html
 ---
-test
-
 I am a Ph.D. student at the Princeton University Department of Economics. I am on the 2025-2026 academic job market.
 
 I study empirical industrial organization, labor markets, the economics of AI, two-sided platforms, and matching theory.
