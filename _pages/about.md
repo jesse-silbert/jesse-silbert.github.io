@@ -8,8 +8,20 @@ redirect_from:
   - /about.html
 ---
 
-I am a Ph.D. student at the Princeton University Department of Economics. I study empirical industrial organization, the economic impacts of AI, labor markets, online platforms, and matching theory.
-I am on the academic job market, 2025-2026.
+<style>
+/* Make the profile image bigger and prevent distortion */
+.author__avatar,
+.author__avatar img { width: 220px !important; height: 220px !important; }
+.author__avatar img { object-fit: cover; border-radius: 50%; }
+</style>
+
+I am a Ph.D. student at the Princeton University Department of Economics. I am on the 2025-2026 academic job market.
+
+I study empirical industrial organization, labor markets, the economics of AI, two-sided platforms, and matching theory.
+
+**Research Fields**
+* Industrial Organization
+* Labor Economics
 
 Email: jesseas@princeton.edu
 
