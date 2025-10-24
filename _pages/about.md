@@ -9,26 +9,14 @@ redirect_from:
 ---
 
 <style>
-/* Widen the sidebar so the larger avatar fits */
-@media (min-width: 64em) {            /* desktop only */
-  .sidebar {
-    max-width: 360px !important;
-    flex: 0 0 360px !important;       /* ensure layout reserves the width */
-  }
+.page__sidebar .author__avatar,
+.page__sidebar .author__avatar img {
+  width: 300px !important;
+  height: 300px !important;
 }
-
-/* Bigger, perfectly circular avatar that stays inside the sidebar */
-.author__avatar {
-  width: 320px !important;
-  height: 320px !important;
-  max-width: 320px !important;
-  margin: 0 auto;
-}
-.author__avatar img {
-  width: 320px !important;
-  height: 320px !important;
-  border-radius: 50% !important;
+.page__sidebar .author__avatar img {
   object-fit: cover !important;
+  border-radius: 50% !important;
   display: block;
 }
 </style>
