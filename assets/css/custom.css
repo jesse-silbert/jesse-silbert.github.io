@@ -89,3 +89,23 @@ li.masthead__menu-item.masthead__menu-item--lg a.site-title,
   pointer-events: none;
   cursor: default;
 }
+
+/* --- MOBILE HEADER FIX: show/center the title on small screens --- */
+@media (max-width: 48em) {
+  /* Reset the masthead container padding so centering works cleanly */
+  .masthead__inner-wrap { max-width: 100% !important; padding: 0 1rem; }
+
+  /* Put the title back to auto width and center it */
+  .masthead__menu-item--lg > a,
+  .masthead .masthead__menu-item--lg > a,
+  .masthead__inner-wrap .masthead__menu-item--lg > a,
+  .masthead .site-title,
+  .masthead__inner-wrap .site-title {
+    display: block !important;
+    width: auto !important;
+    margin: 0 auto !important;   /* center */
+    text-align: center !important;
+    font-size: 2rem !important;  /* mobile size; tweak 1.9–2.2rem to taste */
+    font-weight: 400 !important;
+  }
+}
