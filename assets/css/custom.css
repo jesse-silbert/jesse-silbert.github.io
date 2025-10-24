@@ -1,56 +1,55 @@
-/* --- Avatar as background: never distorts --- */
+/* === AVATAR (render as background; never distorts) === */
 .author__avatar img { display: none !important; }
 
-/* Works for both desktop sidebar and mobile author block */
 .author__avatar,
 .author__content .author__avatar {
   width: 340px !important;
   height: 340px !important;
   max-width: 340px !important;
   max-height: 340px !important;
-  box-sizing: border-box;
-  border: 6px solid #fff;
+  box-sizing: border-box;         /* keep ring inside the size */
+  border: 6px solid #fff;         /* white ring */
   border-radius: 50%;
   margin: 0 auto;
 
-  background-image: url('/images/profile_square.jpeg'); /* exact filename */
+  background-image: url('/images/profile_square.jpeg'); /* use your exact filename */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   overflow: hidden;
 }
 
-/* --- DESKTOP: make room for a large sidebar avatar (no overlap) --- */
+/* === DESKTOP LAYOUT: real two-column, no overlap === */
 @media (min-width: 64em) {
-  /* 1) Widen the actual sidebar column (covers both variants) */
-  .sidebar,
-  .page__sidebar { 
-    width: 440px !important;
-    max-width: 440px !important;
+  /* your wrapper and columns per your DOM: #main > .sidebar.sticky + article.page */
+  #main { display: flex !important; gap: 2rem; align-items: flex-start; }
+
+  .sidebar.sticky,
+  .sidebar {                         /* widen the actual sidebar */
     flex: 0 0 440px !important;
+    max-width: 440px !important;
   }
 
-  /* 2) Push ALL main content wrappers to the right by the same amount   */
-  /*    (hit whichever your build uses: page__content, archive, or main) */
+  article.page,
   .page__content,
-  .archive,
-  #main { 
-    margin-left: 460px !important;   /* sidebar width + a little padding */
-    max-width: none !important;
+  .archive {                         /* content takes remaining width */
     flex: 1 1 auto !important;
+    max-width: none !important;
   }
 }
 
-/* --- MOBILE/TABLET: keep avatar generous; keep email visible; hide only Follow button --- */
+/* === MOBILE/TABLET: generous avatar, keep email visible === */
 @media (max-width: 64em) {
   .author__avatar,
   .author__content .author__avatar {
     width: 240px !important;
     height: 240px !important;
   }
-  .author__urls-wrapper .btn { display: none !important; } /* hide only the toggle */
+
+  /* hide only the mobile “Follow” toggle, not the email line */
+  .author__urls-wrapper .btn { display: none !important; }
 }
 
-/* --- Bigger site title in the masthead --- */
+/* === Bigger site title in the masthead === */
 .masthead .site-title { font-size: 2.1rem !important; font-weight: 700 !important; }
 @media (max-width: 48em) { .masthead .site-title { font-size: 1.9rem !important; } }
