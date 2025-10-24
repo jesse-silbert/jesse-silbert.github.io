@@ -1,38 +1,43 @@
-/* --- AVATAR: use background so it can’t distort --- */
+/* === Fix avatar === */
 .author__avatar img { display: none !important; }
 
-.author__avatar {
-  /* default (desktop-ish) size */
-  width: 340px !important;
-  height: 340px !important;
-  max-width: 340px !important;
-  max-height: 340px !important;
-
+/* Target avatar in *any* layout (sidebar or mobile) */
+.author__avatar,
+.author__content .author__avatar {
+  width: 360px !important;
+  height: 360px !important;
+  max-width: 360px !important;
+  max-height: 360px !important;
   border-radius: 50%;
   margin: 0 auto;
-  background-image: url('/images/profile_square.jpeg'); /* <-- use your exact filename */
+  background-image: url('/images/profile_square.jpeg'); /* exact name */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   overflow: hidden;
 }
 
-/* Desktop layout: give the sidebar room so the avatar isn’t clamped */
+/* Give room on large screens */
 @media (min-width: 64em) {
-  .page__sidebar { max-width: 400px !important; flex: 0 0 400px !important; }
-  .page__content { flex-basis: calc(100% - 400px) !important; }
+  .page__sidebar { max-width: 420px !important; flex: 0 0 420px !important; }
+  .page__content { flex-basis: calc(100% - 420px) !important; }
 }
 
-/* Mobile/tablet: make the avatar bigger too (theme shrinks it otherwise) */
+/* On small screens, keep it big and centered */
 @media (max-width: 64em) {
-  .author__avatar { width: 220px !important; height: 220px !important; }
+  .author__avatar,
+  .author__content .author__avatar {
+    width: 260px !important;
+    height: 260px !important;
+  }
+  .author__urls-wrapper { display: none !important; } /* removes ghost bubble */
 }
 
-/* Remove the mobile “Follow” wrapper entirely so no ghost icon remains */
-@media (max-width: 64em) {
-  .author__urls-wrapper { display: none !important; }
+/* === Masthead title === */
+.site-title {
+  font-size: 2rem !important;
+  font-weight: 600 !important;
 }
-
-/* Make your name in the masthead larger */
-.site-title { font-size: 2rem !important; }            /* desktop */
-@media (max-width: 48em) { .site-title { font-size: 1.9rem !important; } }  /* mobile */
+@media (max-width: 48em) {
+  .site-title { font-size: 1.9rem !important; }
+}
