@@ -11,6 +11,8 @@ I am a Ph.D. student at the Princeton University Department of Economics. I am o
 
 I study empirical industrial organization, labor markets, the economics of AI, two-sided platforms, and matching theory.
 
+My CV can be found [here](https://jesse-silbert.github.io/website/Silbert_CV.pdf).
+
 **Research Fields**
 * Industrial Organization
 * Labor Economics
