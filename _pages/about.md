@@ -23,9 +23,7 @@ My CV can be found [here](https://jesse-silbert.github.io/website/Silbert_CV.pdf
 
 **Job Market Paper:**
 
-Making Talk Cheap: Generative AI and Labor Market Signaling (with [Anaïs Galdin](https://www.anaisgaldin.com/home)).
-
-[Draft coming soon!]
+[Making Talk Cheap: Generative AI and Labor Market Signaling](https://jesse-silbert.github.io/website/silbert_jmp.pdf) (with [Anaïs Galdin](https://www.anaisgaldin.com/home)).
 
 Abstract:
 
