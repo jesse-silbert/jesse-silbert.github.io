@@ -24,7 +24,7 @@ My CV can be found [here](https://jesse-silbert.github.io/website/Silbert_CV.pdf
 **Job Market Paper:**
 
 [Making Talk Cheap: Generative AI and Labor Market Signaling](https://jesse-silbert.github.io/website/silbert_jmp.pdf) (with [Anaïs Galdin](https://www.anaisgaldin.com/home)). [ArXiv](https://arxiv.org/abs/2511.08785)
-* Media Coverage: [Financial Times](https://www.ft.com/content/e5b7c3bd-925e-4907-a8fd-96b8e33353a5?accessToken=zwAGQ31_YRIokdPlt8O9kl5JB9Oo_Za44zNTpQ.MEUCIC2uiiTVkveeda7VRohafmUcLzZi_lrGnBSRWCvGDIoJAiEAkBPn55OGpylVa-4FJ4_Q0QKl3xYuUOhaLHNGqUutgX4&sharetype=gift&token=7ac10789-7c59-4119-83cc-1d779c074c79),  [The Economist](https://www.economist.com/finance-and-economics/2025/11/13/how-ai-is-breaking-cover-letters?utm_campaign=shared_article)
+* Media Coverage: [Financial Times](https://www.ft.com/content/e5b7c3bd-925e-4907-a8fd-96b8e33353a5?accessToken=zwAGQ31_YRIokdPlt8O9kl5JB9Oo_Za44zNTpQ.MEUCIC2uiiTVkveeda7VRohafmUcLzZi_lrGnBSRWCvGDIoJAiEAkBPn55OGpylVa-4FJ4_Q0QKl3xYuUOhaLHNGqUutgX4&sharetype=gift&token=7ac10789-7c59-4119-83cc-1d779c074c79),  [The Economist](https://www.economist.com/finance-and-economics/2025/11/13/how-ai-is-breaking-cover-letters?utm_campaign=shared_article), [The Economist The Intelligence Podcast](https://podcasts.apple.com/us/podcast/wage-against-the-machine-the-distortions-of-minimum-pay/id1449631195?i=1000738310526), [CNN](https://www.cnn.com/2025/12/21/economy/ai-hiring-complication), [The Atlantic](https://www.theatlantic.com/ideas/2025/12/grade-inflation-ai-hiring/685157/)
 
 Abstract:
 
