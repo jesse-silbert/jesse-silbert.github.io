@@ -7,15 +7,13 @@ redirect_from:
   - /about/
   - /about.html
 ---
-I am joining the [FutureTech](https://futuretech.mit.edu) group at MIT Sloan and CSAIL as a Postdoctoral Associate in the summer of 2026. I received my Ph.D. in economics from Princeton University in May 2026.
+I am joining the [FutureTech](https://futuretech.mit.edu) group at MIT Sloan and CSAIL as a Postdoctoral Associate in the summer of 2026. 
 
 I study the economics of AI, industrial organization, and labor economics, with a particular focus on information and matching.
 
-My CV can be found [here](https://jesse-silbert.github.io/website/Silbert_CV.pdf).
+I received my Ph.D. in economics from Princeton University in May 2026.
 
-**Research Fields**
-* Industrial Organization
-* Labor Economics
+My CV can be found [here](https://jesse-silbert.github.io/website/Silbert_CV.pdf).
 
 **Email:** jesseas@princeton.edu
 
