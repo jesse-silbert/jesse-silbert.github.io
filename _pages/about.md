@@ -7,9 +7,9 @@ redirect_from:
   - /about/
   - /about.html
 ---
-I am a Ph.D. student at the Princeton University Department of Economics. I am on the 2025-2026 academic job market.
+I am joining the [FutureTech](https://futuretech.mit.edu) group at MIT Sloan and CSAIL as a Postdoctoral Associate in the summer of 2026. I received my Ph.D. in economics from Princeton University in May 2026.
 
-I study industrial organization in the context of labor markets, with a particular focus on the economics of AI, information, and matching.
+I study the economics of AI, industrial organization, and labor economics, with a particular focus on information and matching.
 
 My CV can be found [here](https://jesse-silbert.github.io/website/Silbert_CV.pdf).
 
@@ -43,13 +43,4 @@ Abstract:
 
 
 In many labor markets, firms do not price discriminate among their workers. In this paper, we study how a labor market with uniform salaries matches workers to jobs. To do so, we construct a job matching model in which each firm views workers as interchangeable and must pay all its workers the same salary. While an efficient stable outcome  always exists, inefficient outcomes can be stable as well. Workers' preferred stable outcome is efficient. In contrast, firms prefer inefficient stable outcomes in which they pay lower salaries. Though a strategyproof mechanism that implements an efficient stable outcome can elicit how workers value employment, it cannot elicit firms' production technologies.
-
----
-
-**Work in Progress:**
-
-Congestion and Effortful Information Provision in Two-Sided Markets (with [Anaïs Galdin](https://www.anaisgaldin.com/home)).
-
-Attentional Market Power on Digital Labor Platforms (with [Anaïs Galdin](https://www.anaisgaldin.com/home) and Yiying Tan).
-
 
